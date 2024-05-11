@@ -1,0 +1,1016 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #003C43;
+}
+.continer{
+    width: 99%;
+    height: 85%;
+    position: relative;
+    background-image: url('images/dragon-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 3%;
+    transition: .5s;
+}
+.continer ul{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: auto;
+    align-items: center;
+}
+.continer ul a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    margin-left: 0px;
+    color: #E1AFD1;
+    padding: 6px;
+    border-bottom: 1px solid red transparent;
+    border-radius: 20px;
+}
+#home{
+    height: 33px;
+    width: 300px;
+    background: #7469B6;
+    border-radius: 20px;
+}
+#anime{
+    position: relative;
+    left: 27%;
+}
+#about{
+    position: relative;
+    left: 15%;
+}
+.continer ul .nav:hover{
+    color: #FFE6E6;
+    background-color:#32012F;
+}
+.continer ul .hom{
+    color: #FFE6E6;
+    background-color: #32012F;
+}
+
+.continer ul .search{
+    width: 120%;
+    align-items: center;  
+    border: solid #000 transparent;
+    border-radius: 20px ;
+    background-color: #000;
+}
+.continer ul .search input{
+    padding: 9px;
+    background: #000;
+    border: #000;
+    width: 85%;
+    border-radius: 20px;
+}
+.continer ul .search input:focus{
+    border: 0px solid #000;
+    outline: 0px solid #fff;
+}
+.continer ul .search i{
+    background:#000;
+    position: relative;
+    top: 2px;
+    padding: 7px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    margin: auto;
+    cursor: pointer;
+}
+.continer .item{
+    position: absolute;
+    left: 12%;
+    top: 60%;
+    width: 85%;
+    height: 48%;
+    gap: 5px;
+
+}.continer .item img{
+    width: 11%;
+    height: 70%;
+    cursor: pointer;
+    margin-left: 15px;
+    border: solid red;
+    border-radius: 20px;
+}
+.continer .text{
+    position: relative;
+    width: 30%;
+}
+.continer .text ul{
+    position: relative;
+    left: 200%;
+    margin-top: 30%;
+}
+.continer .text i{
+    font-size: 280%;
+    color: #fff;
+    margin-right: 5px;
+    left: 60%;
+    filter:drop-shadow(20px 10px 30px #00215E) ;
+}
+.continer .text i:hover{
+    scale: 1.08;
+}
+.continer .item h2{
+    position: absolute;
+    color: rgb(81, 255, 0);
+    font-weight: 800;
+    font-size: 25px;
+    left: 6%;
+    bottom: 50%;
+    opacity: 1;
+}
+.continer .item img{
+    border: solid red;
+}
+.continer .item img:hover{
+    scale: 1.05;
+    border-color: #fff;
+}
+.content{
+    width: 99%;
+    height: 255%;
+    display: flex;
+}
+.content .manga{
+    width: 60%;
+    height: 100vh;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 30px;
+    
+   
+}
+.content .manga .show{
+    width: 100%;
+    display: flex;
+    margin-right: .5%;
+}
+.content .manga .anime-1{
+    width: 35%;
+    height: 56%;   
+    margin-right: .5%;
+    background: #000;
+    border: 1px solid #fff;
+}
+.content .manga .anime-1 img{
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.content .manga .anime-1 img:hover{
+    scale: 1.01;
+}
+.content .manga .anime-1 h2{
+    font-size: 25px;
+    margin-left: 7%;
+}
+.content .manga .anime-1 i{
+    color: gold;
+}
+.content .manga .show-2{
+    width: 100%;   
+    margin-top: 2%;
+    display: flex;
+    margin-right: .5%;
+}
+.content .manga .anime-3{
+    width: 35%;
+    height: 56%;   
+    margin-right: .5%;
+    background: #000;
+    border: 1px solid #fff;
+}
+.content .manga .anime-3 img{
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.content .manga .anime-3 img:hover{
+    scale: 1.01;
+}
+.content .manga .anime-3 h2{
+    font-size: 25px;
+    margin-left: 7%;
+}
+.content .manga .anime-3 i{
+    color: gold;
+}
+.content .manga .show-1{
+    width: 100%;   
+    margin-top: 2%;
+    display: flex;
+    margin-right: .5%;
+}
+.content .manga .anime-2{
+    width: 35%;
+    height: 56%;   
+    margin-right: .5%;
+    background: #000;
+    border: 1px solid #fff;
+}
+.content .manga .anime-2 img{
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.content .manga .anime-2 img:hover{
+    scale: 1.01;
+}
+.content .manga .anime-2 h2{
+    font-size: 25px;
+    margin-left: 7%;
+}
+.content .manga .anime-2 i{
+    color: gold;
+}
+.content .manga .show-3{
+    width: 100%;   
+    margin-top: 2%;
+    display: flex;
+    margin-right: .5%;
+}
+.content .manga .show-4{
+    width: 100%;   
+    margin-top: 2%;
+    display: flex;
+    margin-right: .5%;
+}
+#star{
+    margin-left: 7%;
+}
+.content .manga-classification{
+    width: 38%;
+    height: 100vh;
+    margin-left: 2%;
+    margin-top: 30px;
+    background: #135D66;
+
+}
+.content .manga-classification .classification{
+    width: 100%;
+    height: 72%;
+}
+.content .manga-classification .classification h1{
+    font-size: 30px;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+    padding: 1%;
+    background: #000;
+}
+.content .manga-classification .classification .rank{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 7%;
+    background: #7469B6;
+    border-radius: 20px;
+    margin: auto;
+}
+.content .manga-classification .classification .rank p{
+    font-size: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.content .manga-classification .classification .rank p:hover{
+    background: #000;
+}
+.content .manga-classification .classification .anime{
+    width: 100;
+    height: 70%;
+    overflow: hidden;
+}
+.content .manga-classification .classification .anime ol li{
+   border-bottom: 1px solid #fff;
+   height: 20%
+}
+.content .manga-classification .classification .anime ol{
+    list-style: none;
+    height: 100%;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+ol::-webkit-scrollbar{
+    width: 20%;
+}
+.content .manga-classification .classification .anime img{
+    width: 15%;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.content .manga-classification .classification .anime img:hover{
+    scale: 1.1;
+}
+#rank-slid{
+   background: #000;
+}
+#anime-list{
+    margin-left: 30px;
+    margin-top: 5%;
+}
+#anime-list h2{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 17%;
+    bottom: 60px;
+    width: 70%;
+    cursor: pointer;
+}
+#anime-list p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 17%;
+    bottom: 60px;
+    width: 70%;
+    cursor: pointer;
+}
+ .aside {
+    width: 100%;
+    height: 28%;
+    background-image: url("images/attack-bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    cursor: pointer;
+    border: 2px solid #fff;
+    margin-bottom: 5%;
+}
+.aside:hover{
+    opacity: 1;
+}
+.aside h2{
+    width: 80%;
+    font-size: 35px;
+    font-weight: 800;
+    color: #00e1ff;
+    text-transform: uppercase;
+    transform: translate(12%,-10%);
+    transition: .5s;
+    opacity: 0;
+}
+.aside:hover h2{
+    transform: translate(12%,100%);
+    opacity: 1;
+}
+.aside p{
+    font-size: 20px;
+    color: #fff;
+    transform: translate(2%, 600%);
+    transition: .5s;
+    opacity: 0;
+}
+.aside:hover p{
+    transform: translate(2%,300%);
+    opacity: 1;
+}
+#aside-1{
+    background-image: url("images/hunter-bg.jpg");
+}
+#aside-2{
+    background-image: url("images/bleach-bg.jpg");
+}
+#aside-3{
+    background-image: url("images/myhero.bg1.jpg");
+}
+#aside-4{
+    background-image: url("images/black-clover-bg1.jpg");
+}
+.last{
+    width: 99%;
+    height: 90vh;
+    margin-top: 3%;
+    margin: auto;
+    color: #fff;
+    background: aqua;
+    border: solid aqua;
+    border-radius: 15px;
+}
+.last h1{
+    position: relative;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 1000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 5px;
+    background: #003;
+    border-radius: 15px;
+    margin-top: .5%;
+}
+#link{
+    margin-top: 10%;
+    opacity: 0;
+}
+.last .img-slid{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+}
+.last .img-slid .item{
+    flex: 1;
+    height: 87%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    filter: blur(1px);
+    border-radius: 25px;
+}
+.last .img-slid .item:hover{
+    flex: 7;
+    filter: blur(0px);
+}
+.last .img-slid .slid-1{
+    background-image: url("images/attack-bg1.jpg");
+    cursor: pointer;
+}
+.last .img-slid .slid-1 h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: fantasy;
+    color: #00e1ff;
+    letter-spacing: 3px;
+    left: 0%;
+    top: 10%;
+}
+.last .img-slid .slid-1 p{
+    position: relative;
+    font-size: 25px;
+    font-family: fantasy;
+    color: #fff;
+    left: 10%;
+    top: 7%;
+}
+.last .img-slid .slid-1 a{
+    position: relative;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    text-decoration: none;
+    left: 35%;
+    top: 20%;
+    overflow: hidden;
+    height: 15%;
+    align-items: center;
+}
+.last .img-slid .slid-1 a p{
+    color: crimson;
+}
+.last .img-slid .slid-1 a:hover p{
+    scale: 1.01;
+}
+#text{
+    opacity: 0;
+    transition: .5s;
+    height: 110px;
+    width: 80%;
+    left: 10%;
+}
+.last .img-slid .slid-1:hover #text{
+    opacity: 1;
+}.last .img-slid .slid-1:hover #link{
+    opacity: 1;
+}
+.last .img-slid .slid-2{
+    background-image: url("images/black-clover-bg1.jpg");
+    cursor: pointer;
+}
+.last .img-slid .slid-2 h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: fantasy;
+    color: #00e1ff;
+    letter-spacing: 3px;
+    left: 10%;
+    top: 10%;
+}
+.last .img-slid .slid-2 p{
+    position: relative;
+    font-size: 25px;
+    font-family: fantasy;
+    color: #fff;
+    left: 0%;
+    top: 7%;
+}
+.last .img-slid .slid-2 a{
+    position: relative;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    text-decoration: none;
+    left: 35%;
+    top: 20%;
+    overflow: hidden;
+    height: 15%;
+    align-items: center;
+}
+.last .img-slid .slid-2 a p{
+    color: crimson;
+}
+.last .img-slid .slid-2 a:hover p{
+    scale: 1.01;
+}
+.last .img-slid .slid-2:hover #text{
+    opacity: 1;
+}.last .img-slid .slid-2:hover #link{
+    opacity: 1;
+}
+.last .img-slid .slid-3{
+    background-image: url("images/dragon-bg.jpg");
+    cursor: pointer;
+}
+.last .img-slid .slid-3 h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: fantasy;
+    color: #00e1ff;
+    letter-spacing: 3px;
+    left: 10%;
+    top: 10%;
+}
+.last .img-slid .slid-3 p{
+    position: relative;
+    font-size: 25px;
+    font-family: fantasy;
+    color: #fff;
+    left: 0%;
+    top: 7%;
+}
+.last .img-slid .slid-3 a{
+    position: relative;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    text-decoration: none;
+    left: 35%;
+    top: 20%;
+    overflow: hidden;
+    height: 15%;
+    align-items: center;
+}
+.last .img-slid .slid-3 a p{
+    color: crimson;
+}
+.last .img-slid .slid-3 a:hover p{
+    scale: 1.01;
+}
+.last .img-slid .slid-3:hover #text{
+    opacity: 1;
+}.last .img-slid .slid-3:hover #link{
+    opacity: 1;
+}
+.last .img-slid .slid-4{
+    background-image: url("images/bleach-bg.jpg");
+    cursor: pointer;
+}
+.last .img-slid .slid-4 h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: fantasy;
+    color: #00e1ff;
+    letter-spacing: 3px;
+    left: 10%;
+    top: 10%;
+}
+.last .img-slid .slid-4 p{
+    position: relative;
+    font-size: 25px;
+    font-family: fantasy;
+    color: #fff;
+    left: 0%;
+    top: 7%;
+}
+.last .img-slid .slid-4 a{
+    position: relative;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    text-decoration: none;
+    left: 35%;
+    top: 20%;
+    overflow: hidden;
+    height: 15%;
+    align-items: center;
+}
+.last .img-slid .slid-4 a p{
+    color: crimson;
+}
+.last .img-slid .slid-4 a:hover p{
+    scale: 1.01;
+}
+.last .img-slid .slid-4:hover #text{
+    opacity: 1;
+}.last .img-slid .slid-4:hover #link{
+    opacity: 1;
+}
+.last .img-slid .slid-5{
+    background-image: url("images/myhero.bg1.jpg");
+    cursor: pointer;
+}
+.last .img-slid .slid-5 h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: fantasy;
+    color: #00e1ff;
+    letter-spacing: 3px;
+    left: 10%;
+    top: 10%;
+}
+.last .img-slid .slid-5 p{
+    position: relative;
+    font-size: 25px;
+    font-family: fantasy;
+    color: #fff;
+    left: 0%;
+    top: 7%;
+}
+.last .img-slid .slid-5 a{
+    position: relative;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    text-decoration: none;
+    left: 35%;
+    top: 20%;
+    overflow: hidden;
+    height: 15%;
+    align-items: center;
+}
+.last .img-slid .slid-5 a p{
+    color: crimson;
+}
+.last .img-slid .slid-5 a:hover p{
+    scale: 1.01;
+}
+.last .img-slid .slid-5:hover #text{
+    opacity: 1;
+}.last .img-slid .slid-5:hover #link{
+    opacity: 1;
+}
+.last .img-slid .slid-6{
+    background-image: url("images/death.jpg");
+    cursor: pointer;
+}
+.last .img-slid .slid-6 h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: fantasy;
+    color: #00e1ff;
+    letter-spacing: 3px;
+    left: 10%;
+    top: 10%;
+}
+.last .img-slid .slid-6 p{
+    position: relative;
+    font-size: 25px;
+    font-family: fantasy;
+    color: #fff;
+    left: 0%;
+    top: 7%;
+}
+.last .img-slid .slid-6 a{
+    position: relative;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    text-decoration: none;
+    left: 35%;
+    top: 20%;
+    overflow: hidden;
+    height: 15%;
+    align-items: center;
+}
+.last .img-slid .slid-6 a p{
+    color: crimson;
+}
+.last .img-slid .slid-6 a:hover p{
+    scale: 1.01;
+}
+.last .img-slid .slid-6:hover #text{
+    opacity: 1;
+}.last .img-slid .slid-6:hover #link{
+    opacity: 1;
+}
+.last .img-slid .slid-7{
+    background-image: url("images/fairy.jpg");
+    cursor: pointer;
+}
+.last .img-slid .slid-7 h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: fantasy;
+    color: #00e1ff;
+    letter-spacing: 3px;
+    left: 10%;
+    top: 10%;
+}
+.last .img-slid .slid-7 p{
+    position: relative;
+    font-size: 25px;
+    font-family: fantasy;
+    color: #fff;
+    left: 0%;
+    top: 7%;
+}
+.last .img-slid .slid-7 a{
+    position: relative;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    text-decoration: none;
+    left: 35%;
+    top: 20%;
+    overflow: hidden;
+    height: 15%;
+    align-items: center;
+}
+.last .img-slid .slid-7 a p{
+    color: crimson;
+}
+.last .img-slid .slid-7 a:hover p{
+    scale: 1.01;
+}
+.last .img-slid .slid-7:hover #text{
+    opacity: 1;
+}.last .img-slid .slid-7:hover #link{
+    opacity: 1;
+}
+.last .last-card{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 45vh;
+    margin: auto;
+}
+#card{
+    width: 25%;
+    height: 100%;
+    border: solid white;
+    transform: rotate(10deg);
+    margin-left: 3%;
+    opacity: .5;
+    cursor: pointer;
+    transition: .5s;
+}
+#card:hover{
+    transform: skewx(0deg);
+    opacity: 1; 
+    scale: 1.1;
+}
+#card a{
+    position: relative;
+    font-size: 30px;
+    text-decoration: none;
+    top: 70%;
+    left: 30%;
+    opacity: 0;
+    transition: .6s;
+}
+#card:hover a{
+    opacity: 1;
+}
+#card a:hover{
+    scale: 1.5;
+    color: #00e1ff;
+    text-decoration: underline;
+}
+.card-1:hover .card-2{
+    opacity: 0;
+}
+.last .last-card .card-1 , .last-card-1 .card-1 , .last-card-2 .card-1, .last-card-3 .card-1{
+    background-image: url("images/fairy.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.last .last-card .card-2 , .last-card-1 .card-2 , .last-card-2 .card-2 , .last-card-3 .card-2{
+    background-image: url("images/fairy.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.last .last-card .card-3 , .last-card-1 .card-3 , .last-card-2 .card-3, .last-card-3 .card-3{
+    background-image: url("images/fairy.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.last .last-card .card-4, .last-card-1 .card-4, .last-card-2 .card-4 , .last-card-3 .card-4{
+    background-image: url("images/fairy.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.last .last-card-1{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 45vh;
+    margin-top: 3%;
+}
+.last .last-card-2{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 45vh;
+    margin-top: 3%;
+}
+.last .last-card-3{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 45vh;
+    margin-top: 3%;
+}
+.footer{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    height: 50%;
+    background: #000;
+    justify-content: space-between;
+}
+.footer .about{
+    width: 30%;;
+    border-right: .3px solid #fff;
+}
+.footer .about ul{
+    width: 80%;
+    list-style: none;
+    margin-left: 15%;
+    margin-top: 10%;
+    line-height: 300%;
+}
+.footer .about ul a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: serif;
+    transition: .6s;
+}
+.footer .about ul a:hover{
+    color: #00e1ff;
+    text-decoration: underline;
+}
+.footer .contact{
+    width: 35%;;
+    border-right: .3px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.footer .contact a{
+    text-decoration: none;
+}
+#footer-icon{
+    font-size: 25px;
+    transition: .5s;
+}
+#footer-p{
+    position: relative;
+    left: -20%;
+    font-size: 18px;
+    font-family: cursive;
+    bottom: 18px;
+    opacity: 1;
+    transition: .5s;
+    transform: translatey(-200%);
+}
+.footer .contact .facebook{
+   position: relative;
+   left: 25px;
+   bottom: 20%;
+}
+.footer .contact .facebook:hover #footer-p{
+    transform: translate(38% , 0%);
+    left: 0;
+    color: #ffd700;
+    opacity: 1;
+}
+
+.footer .contact .facebook:hover i{
+    transform: translate(0 , 40%);
+    color :#ffd700;
+    scale: 1.3;
+}
+.footer .contact .facebook:hover a{
+    text-decoration: 3px underline #ffd700;
+}
+.footer .contact .insta{
+    position: relative;
+    bottom: 20%;
+}
+.footer .contact .insta:hover #footer-p{
+    transform: translate(38% , 0%);
+    left: 0;
+    color :#ffd700;
+    opacity: 1;
+}
+.footer .contact .insta:hover i{
+    transform: translate(0 , 40%);
+    color :#ffd700;
+    scale: 1.3;
+}
+.footer .contact .insta:hover a{
+    text-decoration: 3px underline #ffd700;
+}
+.footer .contact .discord{
+    position: relative;
+    right: 45px;
+    bottom: 20%;
+}
+.footer .contact .discord:hover #footer-p{
+    transform: translate(40% , -35%);
+    left: 0;
+    color :#ffd700;
+    opacity: 1;
+}
+.footer .contact .discord:hover i{
+    transform: translate(40 , 0%);
+    color :#ffd700;
+    scale: 1.3;
+}
+.footer .contact .discord:hover a{
+    text-decoration: 3px underline #ffd700;
+}
+.footer .contact .copy{
+    width: 30%;
+    position: absolute;
+    display: flex;
+    top: 685%;
+}
+#design{
+    margin-left: 12%;
+}
+.footer .sign{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.footer .sign ul{
+    width: 80%;
+    list-style: none;
+    margin-left: 15%;
+    margin-top: 10%;
+    line-height: 300%;
+}
+.footer .sign ul a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: serif;
+    transition: .6s;
+}
+.footer .sign ul a:hover{
+    color: #00e1ff;
+    text-decoration: underline;
+}
